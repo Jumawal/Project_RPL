@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="LembagaPemasyarakatan" company="" webLink="http://" view-date="2018-05-27" view-index="0" gantt-divider-location="237" resource-divider-location="300" version="2.8.7" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="129" order="0"/>
+        <field id="tpd4" name="Begin date" width="52" order="1"/>
+        <field id="tpd5" name="End date" width="52" order="2"/>
+        <option id="color.recent"><![CDATA[#ff3333 #00ff00 #00ff33 #009999 #ffff66 #3333ff #00ffff #33ffff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analisis dan Pemodelan" color="#8cb6ce" meeting="false" start="2018-04-13" duration="11" complete="0" thirdDate="2018-04-13" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Sistem Design" color="#8cb6ce" meeting="false" start="2018-04-30" duration="10" complete="0" thirdDate="2018-04-30" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="Pengkodingan" color="#8cb6ce" meeting="false" start="2018-05-14" duration="30" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true">
+            <depend id="72" type="2" difference="0" hardness="Strong"/>
+            <task id="14" name="User Interface" color="#ff3333" meeting="false" start="2018-05-14" duration="15" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="true">
+                <task id="17" name="UI Dashboard" color="#00ff00" meeting="false" start="2018-05-14" duration="5" complete="0" thirdDate="2018-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="20" name="UI Form Inputan Data Napi" color="#00ff00" meeting="false" start="2018-05-14" duration="5" complete="0" thirdDate="2018-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="23" name="UI Form Input Data Pengunjung" color="#00ff00" meeting="false" start="2018-05-14" duration="5" complete="0" thirdDate="2018-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="24" name="UI Form Input Data Petugas" color="#00ff00" meeting="false" start="2018-05-14" duration="5" complete="0" thirdDate="2018-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="26" name="UI Form Input Catatan Pelanggaran" color="#00ff00" meeting="false" start="2018-05-14" duration="5" complete="0" thirdDate="2018-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="28" name="UI Form Input Data Remisi" color="#00ff00" meeting="false" start="2018-05-21" duration="5" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="30" name="UI Form Input Data Pindah Lokasi Sel" color="#00ff00" meeting="false" start="2018-05-21" duration="5" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="32" name="UI Informasi Data Napi" color="#00ff00" meeting="false" start="2018-05-21" duration="5" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="34" name="UI Informasi Data Pengunjung" color="#00ff00" meeting="false" start="2018-05-21" duration="5" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="41" name="UI Informasi Data Petugas" color="#00ff00" meeting="false" start="2018-05-21" duration="5" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="57" name="UI Informasi Data Lokasi Sel" color="#00ff00" meeting="false" start="2018-05-28" duration="5" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+                <task id="66" name="UI Informasi Cuti Bersyarat" color="#00ff00" meeting="false" start="2018-05-28" duration="5" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+                <task id="68" name="UI Informasi Catatan Pelanggaran" color="#00ff00" meeting="false" start="2018-05-28" duration="5" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="70" name="Sistem Database" color="#ff3333" meeting="false" start="2018-06-04" duration="15" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true">
+                <task id="117" name="Sistem Form Input Data" color="#00ff33" meeting="false" start="2018-06-04" duration="15" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true"/>
+                <task id="124" name="Sistem Database Informasi Data" color="#00ff33" meeting="false" start="2018-06-04" duration="15" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="72" name="Testing" color="#8cb6ce" meeting="false" start="2018-06-25" duration="10" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Jumawal" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Mukhlas Aziz I" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Akmalul Hikam" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Joko Samudro" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Putra Bagas" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="117" resource-id="0" function="Default:1" responsible="true" load="70.0"/>
+        <allocation task-id="72" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="117" resource-id="1" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="72" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="124" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="72" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="124" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="72" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="72" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="124" resource-id="4" function="Default:0" responsible="false" load="25.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
